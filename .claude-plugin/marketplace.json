@@ -1,0 +1,14 @@
+{
+  "name": "umurkose",
+  "description": "Agent skills that clean up a codebase without rewriting it.",
+  "owner": {
+    "name": "umurkose"
+  },
+  "plugins": [
+    {
+      "name": "skills",
+      "source": "./",
+      "description": "Audit a codebase's structure (organize) and styling (design-token) without rewriting it."
+    }
+  ]
+}
