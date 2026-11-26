@@ -1,6 +1,8 @@
 # skills
 
-Two Claude Code skills that audit a codebase without rewriting it. Each one reports a short numbered plan and stops. Nothing changes until you pick an item.
+Two AI skills that audit a codebase without rewriting it. Each one reports a short numbered plan and stops. Nothing changes until you pick an item.
+
+Each skill is a plain `SKILL.md` file, so it works with any AI agent that supports skills.
 
 | Skill | What it audits |
 | --- | --- |
@@ -11,13 +13,13 @@ Two Claude Code skills that audit a codebase without rewriting it. Each one repo
 
 ```sh
 git clone https://github.com/umurkose/skills.git
-mkdir -p ~/.claude/skills
-cp -r skills/skills/organize skills/skills/design-token ~/.claude/skills/
 ```
 
-Then restart Claude Code. To use the skills in one project only, copy the two folders into that project's `.claude/skills/` instead.
+Copy `skills/skills/organize` and `skills/skills/design-token` into the folder your agent loads skills from, then restart the agent.
 
 ## Usage
+
+Ask your agent to run a skill on a folder, for example:
 
 ```text
 /organize src
