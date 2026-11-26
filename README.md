@@ -1,6 +1,6 @@
 # skills
 
-Two AI skills that audit a codebase without rewriting it. Each one reports a short numbered plan and stops. Nothing changes until you pick an item.
+AI skills that audit a codebase without rewriting it. Each one reports a short numbered plan and stops. Nothing changes until you pick an item.
 
 Each skill is a plain `SKILL.md` file, so it works with any AI agent that supports skills.
 
@@ -15,7 +15,7 @@ Each skill is a plain `SKILL.md` file, so it works with any AI agent that suppor
 git clone https://github.com/umurkose/skills.git
 ```
 
-Copy `skills/skills/organize` and `skills/skills/design-token` into the folder your agent loads skills from, then restart the agent.
+Copy the folders inside `skills/skills/` into the folder your agent loads skills from, then restart the agent.
 
 ## Usage
 
